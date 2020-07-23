@@ -1,0 +1,7 @@
+{
+    "api_key" : "API KEY" ,
+    "api_secret" : "API SECRET",
+    "access_token" : "ACCESS TOKEN",
+    "access_token_secret" : "ACCESS TOKEN SECRET",
+    "screen_name" : "TWITTER HANDLE"
+}
