@@ -16,7 +16,7 @@ For the impatient:
 
 Install tweepy via pip:
     
-    pip install tweepy
+    pip3 install tweepy
 
 
 Configuration and account settings are stored in JSON format. Create the file **config.json** (see sample below) and place it in the same folder as **twitter_stats.py**. 
