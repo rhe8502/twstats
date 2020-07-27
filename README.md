@@ -1,8 +1,8 @@
 # Twitter Stats
 
-**Twitter Stats** is a small Python 3 program using Tweepy and the official Twitter API.
+**Twitter Stats** is a small Python 3 script using Tweepy and the official Twitter API.
 
-The program displays user name, current tweet count and followers (Subs) on a Display-O-Tron 3000. The bar light gives a visual notification if a new follower is gained, or lost.
+The program displays user name, current tweet count and followers (subs) on a Display-O-Tron 3000. The bar light gives a visual notification if a new follower is gained, or lost.
 
 ![Twitter Stats](./res/twitter_stats.gif)
 
@@ -19,7 +19,7 @@ Install tweepy via pip:
     pip3 install tweepy
 
 
-Configuration and account settings are stored in JSON format. Create the file **config.json** (see sample below) and place it in the same folder as **twitter_stats.py**. 
+Configuration and account settings are stored in JSON format. Create the file **config.json** (see sample below) and place it in the same folder as **twstats.py**. 
 
 **config.json**
 ```json
