@@ -41,11 +41,10 @@ def screen_light(switch):
 def set_graph():
     """Visual notification, illuminate Bargraph"""
 
-    for x in range(0,1):
-        for i in range(100):
-           backlight.set_graph(i / 100.0)
-        for i in reversed(range(100)):
-            backlight.set_graph(i / 100.0)
+    for i in range(100):
+        backlight.set_graph(i / 100.0)
+    for i in reversed(range(100)):
+        backlight.set_graph(i / 100.0)
 
 def twitter_auth():
     """Load configuration from JSON file and authenticate against Twitter API""" 
